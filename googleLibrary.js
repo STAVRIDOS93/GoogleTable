@@ -45,7 +45,7 @@ window.GoogleTable = (link, template, node, tabs = false) => {
         let count = template.match(/\{\{[a-z]{0,100}\}\}/g);
 
         data.forEach((element, index) => {
-        
+            
             let replaceView = ()=>{
                 for (let i = 0; i < element.data.length; i++) {
                     let work = template;
@@ -60,15 +60,12 @@ window.GoogleTable = (link, template, node, tabs = false) => {
             if(tabs){
                 tabsView += `<div data-button="${index}">${element.tab}</div>`;
          
-                result += `<div data-block="${index}" class="row__blocks">`;
+                result += `<div data-block="${index}" class="row__blocks">
+                                <div class="line__block">`;
 
-                element.data.forEach( el => {
-                        result += `<div class="line__block">`;
-                        replaceView();
-                        result +=  `</div>`;
-                })
-     
-                result +=  `</div>`;
+                                replaceView();
+                                
+                result +=  `</div></div>`;
             }else{
                 if(element.data.length !== 0){
                     replaceView();
