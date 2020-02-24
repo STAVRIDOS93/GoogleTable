@@ -5,6 +5,6 @@ Getting data from google table, and rendering in a document
 
 window.GoogleTable(
     'linkGoogleShare',
-    `<div>{{nameСolumns}}</div>`, // template
-    'selector' // selector parent Block
+    `<div>{{nameСolumns}}</div>`,
+    'selectorParentNode'
 )
