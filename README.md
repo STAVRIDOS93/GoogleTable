@@ -24,22 +24,23 @@ In the project directory, you can run:
 
 ### `link`
 
-[link to google table](https://docs.google.com/spreadsheets/d/14-jNTfF24BWJ72r6hKumpsqJ0q8LCjccDMzKCtHepe4/htmlview)
+[Test link to google table](https://docs.google.com/spreadsheets/d/14-jNTfF24BWJ72r6hKumpsqJ0q8LCjccDMzKCtHepe4/htmlview)
 
-### `template`
+### `template {pattern strings}: <div>{{nameColumns}}</div>`
 
 The template you need in the form of template strings and first line is used to name the properties of the object.
 See the section about [pattern strings](`<div>{{nameColumns}}</div>`)
 
-### `template`
+### `template {string}: <div>{{nameColumns}}</div>`
 
 The template you need in the form of template strings and first line is used to name the properties of the object.
-See the section about [string ](`<div>{{nameColumns}}</div>`)
+See the section about
 
-### `parent`
+### `parent {string}`
 
-the parent element where you want to insert the result of the script execution
+The identifier of the parent element where you want to insert the result of the script execution
 
 ### `tabs`
 
-the parent element where you want to insert the result of the script execution
+Boolean value true or false, depending on the requirements, if it is not needed, you can omit it.
+Default false
