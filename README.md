@@ -22,25 +22,18 @@ This project was bootstrapped with [AutoGoogleTable](https://github.com/STAVRIDO
 
 properties that are passed to window.GoogleTable:
 
-### `link`
+### `link {string} `
 
 [Test link to google table](https://docs.google.com/spreadsheets/d/14-jNTfF24BWJ72r6hKumpsqJ0q8LCjccDMzKCtHepe4/htmlview)
 
 ### `template {pattern strings}: <div>{{nameColumns}}</div>`
 
 The template you need in the form of template strings and first line is used to name the properties of the object.
-See the section about [pattern strings](`<div>{{nameColumns}}</div>`)
-
-### `template {string}: <div>{{nameColumns}}</div>`
-
-The template you need in the form of template strings and first line is used to name the properties of the object.
-See the section about
 
 ### `parent {string}`
 
-The identifier of the parent element where you want to insert the result of the script execution
+The identifier of the parent element where you want to insert the result of the script execution.
 
-### `tabs`
+### `tabs {boolean}: true/false`
 
-Boolean value true or false, depending on the requirements, if it is not needed, you can omit it.
-Default false
+Boolean value true or false, depending on the requirements, if it is not needed, you can omit it, default false.
