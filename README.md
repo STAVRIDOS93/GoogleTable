@@ -20,7 +20,7 @@ This project was bootstrapped with [AutoGoogleTable](https://github.com/STAVRIDO
 
 ## window.GoogleTable( link, template, parent, tabs)
 
-In the project directory, you can run:
+properties that are passed to window.Google Table:
 
 ### `link`
 
